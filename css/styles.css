@@ -193,6 +193,9 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1.5em;
-  padding: 20px 0; }
+  padding: 20px 0;
+  color: #343436; }
   .skill::after, .interests::after {
     content: " | "; }
+  .skill .active, .interests .active {
+    color: #095d9b; }
