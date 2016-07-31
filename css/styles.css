@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box; }
+
+.full-height {
+  height: 100%; }
+
+header {
+  height: 70px;
+  width: 100vw;
+  margin: 0;
+  background-color: #343436;
+  overflow: hidden; }
+  header h1 {
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #F6E2C9;
+    text-align: center; }
+  header .companyLogo {
+    margin-top: 14px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 40px; }
+  header .logo {
+    max-height: 70px;
+    float: right; }
+
+#welcome {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  background-color: #095d9b;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/HANDSHAKE_illustration.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #welcome h1.title {
+    padding-top: 20px;
+    text-align: center;
+    color: #F6E2C9;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 5em; }
+  #welcome h2 {
+    font-family: "Raleway", sans-serif;
+    color: #F6E2C9;
+    font-weight: medium;
+    text-align: center; }
+  #welcome p.footer {
+    font-family: "Raleway", sans-serif;
+    color: #343436;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    margin: 0 auto;
+    width: 100%; }
+  #welcome .formRow {
+    position: relative;
+    top: 20%; }
+    #welcome .formRow .signInForm {
+      background-color: rgba(52, 52, 54, 0.5);
+      padding: 20px; }
+      #welcome .formRow .signInForm span {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        color: #F6E2C9;
+        font-size: 1em; }
+      #welcome .formRow .signInForm input {
+        width: 100%; }
+        #welcome .formRow .signInForm input .password {
+          margin-top: 5px; }
+
+#welcome > div:nth-child(2) > div > div > form > button {
+  position: relative;
+  right: -80%;
+  top: 5px;
+  background-color: #095d9b;
+  color: #F6E2C9; }
+
+#mentorshipProfile {
+  background-color: #ffca30;
+  min-height: 100vh;
+  width: 100vw; }
+  #mentorshipProfile .img-side {
+    padding: 0 !important;
+    position: relative;
+    right: 5px; }
+    #mentorshipProfile .img-side .form-group {
+      margin-left: 20px;
+      margin-top: 40px; }
+      #mentorshipProfile .img-side .form-group label {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.75em; }
+      #mentorshipProfile .img-side .form-group textarea {
+        height: 250px;
+        margin-bottom: 10px; }
+      #mentorshipProfile .img-side .form-group button {
+        text-align: right; }
+  #mentorshipProfile .userPic {
+    position: relative;
+    left: 0;
+    width: 100%; }
+  #mentorshipProfile .updateProfileBtn {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    right: 20px;
+    background-color: #F6E2C9;
+    color: #095d9b;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center; }
+  #mentorshipProfile .goalsProgressBar {
+    width: 100%; }
+  #mentorshipProfile .br_line {
+    border-bottom: solid black 5px;
+    border-height: 100%;
+    width: 100%; }
+  #mentorshipProfile .userName {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em; }
+  #mentorshipProfile .idLabel {
+    font-weight: bold; }
+  #mentorshipProfile .idLabel, #mentorshipProfile .idNumber {
+    position: relative;
+    top: -8px;
+    font-size: 1.5em; }
+  #mentorshipProfile h2.jobTitle {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+    font-size: 2em; }
+  #mentorshipProfile .checkboxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #mentorshipProfile .checkboxes input {
+      font-size: 1em;
+      margin-left: 20px; }
+
+.buttons {
+  text-align: right;
+  width: 100%;
+  padding-bottom: 20px; }
+
+#mentorshipProfile {
+  position: relative; }
+  #mentorshipProfile .img-side {
+    float: left; }
+  #mentorshipProfile .userPic {
+    width: 40vw;
+    margin: 0;
+    padding: 0;
+    display: block; }
+  #mentorshipProfile .userInfoSection {
+    max-width: 48vw;
+    float: right;
+    position: relative;
+    right: 40px; }
+  #mentorshipProfile h1.goals {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    color: #343436;
+    border-bottom: 2px solid #343436;
+    margin-bottom: 20px;
+    margin-top: 100px; }
+  #mentorshipProfile .drawerContainer {
+    padding: 20px;
+    background-color: #F6E2C9;
+    margin-bottom: 40px;
+    border-radius: 10px; }
+    #mentorshipProfile .drawerContainer .title {
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      color: #343436;
+      font-size: 2.5em;
+      text-align: center;
+      padding-bottom: 40px; }
+
+#softSkills > span:nth-child(10)::after {
+  content: ''; }
+
+.skill, .interests {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 20px 0; }
+  .skill::after, .interests::after {
+    content: " | "; }

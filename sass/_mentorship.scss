@@ -1,0 +1,93 @@
+#mentorshipProfile {
+  background-color: $yellow;
+  min-height: 100vh;
+  width: 100vw;
+  // margin:0;
+  // padding: 0;
+
+  .img-side {
+    padding: 0 !important;
+    position: relative;
+    right: 5px;
+    .form-group {
+      margin-left: 20px;
+      margin-top: 40px;
+      label {
+        font-family: $font;
+        font-size: 1.75em;
+      }
+      textarea {
+        height: 250px;
+        margin-bottom: 10px;
+      }
+      button {
+        text-align: right;
+      }
+    }
+  }
+  .userPic {
+    position: relative;
+    // top: -12px;
+    left: 0;
+    width: 100%;
+    // border-right: solid 3px $blue;
+    // border-bottom: solid 3px $blue;
+  }
+  .updateProfileBtn {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    right: 20px;
+    background-color: $white;
+    color: $blue;
+    font-family: $font;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+  .goalsProgressBar {
+    width: 100%;
+  }
+  .br_line {
+    border-bottom:solid black 5px;
+    border-height:100%;
+    width:100%;
+  }
+  .userName {
+    font-family: $font;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+  }
+  .idLabel {
+    font-weight: bold;
+  }
+  .idLabel, .idNumber{
+    position: relative;
+    top: -8px;
+    font-size: 1.5em;
+  }
+  h2.jobTitle {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+    font-size: 2em;
+  }
+  .checkboxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    input {
+      font-size: 1em;
+      margin-left: 20px;
+    }
+  }
+} //end mentorshipProfile
+
+.buttons {
+  text-align: right;
+  width: 100%;
+  padding-bottom: 20px;
+  // outline: 1px solid red;
+}
